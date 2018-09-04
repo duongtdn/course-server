@@ -3,8 +3,14 @@
 function queryCourses(db) {
   return function(req, res, next) {
     const courses = req.body.courses;
-    console.log(courses);
-    res.status(200).json({msg: 'ok'})
+    db.course.batchGetCourses(courses, (err, data) => {
+      if (err) {
+        res.status(500).send()
+      } else {
+        res.status(200).json({data})
+      }
+    })
+    
   }
 }
 
