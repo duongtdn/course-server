@@ -1,5 +1,5 @@
 {
-  "name": "course-server",
+  "name": "@sglearn/course-server",
   "version": "1.0.0",
   "description": "sglearn: course backend services",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duongtdn/course-server.git"
+    "url": "git+https://github.com/sglearn/course-server.git"
   },
   "author": "duongtdn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duongtdn/course-server/issues"
+    "url": "https://github.com/sglearn/course-server/issues"
   },
-  "homepage": "https://github.com/duongtdn/course-server#readme",
+  "homepage": "https://github.com/sglearn/course-server#readme",
   "devDependencies": {
     "database-abstractor": "^1.0.0",
     "database-test-helper": "^1.0.0",
